@@ -5,7 +5,9 @@ import axios from "axios";
 const GetAllCourses = () => {
   useEffect(() => {
     (async () => {
-      const response = await axios.get("http://localhost:3000/api/course");
+      const response = await axios.get(
+        "https://odisha-content.vercel.app/api/course"
+      );
       console.log(response);
     })();
     return () => {};
