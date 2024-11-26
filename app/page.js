@@ -69,9 +69,16 @@ const Home = () => {
               </div>
               <nav className="ml-[50px]">
                 <ul className="flex items-center space-x-4">
-                  <li className="font-semibold">Categories</li>
-                  <li>About Us</li>
-                  <li>Contact</li>
+                  <li className="font-semibold text-[15px] relative group cursor-pointer">
+                    Categories
+                    <ul className="absolute w-[100px] bg-white p-2 shadow-lg opacity-0 pointer-events-none transform translate-y-2 transition-all duration-300 group-hover:opacity-100 group-hover:pointer-events-auto group-hover:translate-y-0">
+                      <li className="font-normal text-[15px]">One</li>
+                      <li className="font-normal text-[15px]">Two</li>
+                      <li className="font-normal text-[15px]">Three</li>
+                    </ul>
+                  </li>
+                  <li className="text-[15px]">About Us</li>
+                  <li className="text-[15px]">Contact</li>
                 </ul>
               </nav>
             </div>
@@ -106,7 +113,7 @@ const Home = () => {
         </div>
       </header>
       <main>
-        <section className="bg-[url('https://skillgro-react.netlify.app/assets/img/banner/banner_bg.png')] h-[500px]">
+        <section className="bg-[url('https://skillgro-react.netlify.app/assets/img/banner/banner_bg.png')] h-[400px]">
           <div className="container mx-auto relative">
             <div className="flex items-center justify-between w-full absolute top-[50px]">
               <div className="ml-10">
@@ -119,7 +126,7 @@ const Home = () => {
               </div>
               <div className="mr-[100px]">
                 <img
-                  width={410}
+                  width={320}
                   src="https://skillgro-react.netlify.app/assets/img/banner/banner_img.png"
                   alt="text"
                 />
