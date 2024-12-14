@@ -36,7 +36,7 @@ const Home = async () => {
                     className="h2 sm:h1 lg:display-6 xl:display-5 mb-1 xl:mb-2"
                     // style="transform: translateX(0px) translateY(0px); opacity: 1;"
                   >
-                    Lorem ipsum dolor
+                    Lorem ipsum do lor
                   </h1>
                   <p
                     className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70"
