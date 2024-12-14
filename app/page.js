@@ -18,7 +18,7 @@ const Home = () => {
           <div className="container-xl flex items-center justify-between">
             <div className="container flex-1">
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 mb-1 xl:mb-2 mt-[100px]">
-                Lorem ipsum dolor sit, amet consectetur
+                Lorem ipsum dol or sit, amet consectetur
               </h1>
             </div>
             <div>
