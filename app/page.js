@@ -5,6 +5,7 @@ import { TiTick } from "react-icons/ti";
 
 import { MdKeyboardArrowUp } from "react-icons/md";
 import connectDB from "@/config/database";
+import Faq from "@/components/faq/faq";
 
 export const metadata = {
   title: "Odisha360",
@@ -324,105 +325,7 @@ const Home = async () => {
             <div id="faq" className="section panel overflow-hidden mt-10">
               <div className="section-outer panel pb-6 xl:pb-6">
                 <div className="container max-w-lg">
-                  <div
-                    className="section-inner panel"
-                    data-anime="onview: -100; targets: &gt;*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
-                  >
-                    <div
-                      className="panel"
-                      // style="transform:translateY(0px);opacity:1"
-                    >
-                      <h2 className="h4 sm:h3 lg:h2 m-0 text-center">
-                        Frequenlty asked questions:
-                      </h2>
-                      <div className="panel mt-4 sm:mt-6 lg:mt-8 p-3 sm:p-4 xl:p-6 lg:max-w-750px xl:w-auto m-auto rounded-2 bg-secondary dark:bg-gray-800">
-                        <ul
-                          className="gap-4 uc-accordion"
-                          data-uc-accordion="targets: &gt; li;"
-                        >
-                          <li className="uc-open  ">
-                            <a
-                              className="uc-accordion-title fs-5 sm:fs-4"
-                              role="button"
-                              aria-disabled="false"
-                            >
-                              Do I need to know about how to code?
-                            </a>
-                            <div className="uc-accordion-content">
-                              <p>
-                                Yes, you need to have a fair amount of knowledge
-                                in dealing with HTML/CSS as well as JavaScript
-                                in order to be able to use Lexend.
-                              </p>
-                            </div>
-                          </li>
-                          <li className="  ">
-                            <a
-                              className="uc-accordion-title fs-5 sm:fs-4"
-                              role="button"
-                              aria-disabled="false"
-                            >
-                              Can I use it for commercial projects?
-                            </a>
-                            <div className="uc-accordion-content">
-                              <p>
-                                Feel free to do so. Lexend does exist to evolve
-                                every commercial project. You can also use it to
-                                build stunning websites for your own clients (we
-                                won’t breathe a word).
-                              </p>
-                            </div>
-                          </li>
-                          <li className="  ">
-                            <a
-                              className="uc-accordion-title fs-5 sm:fs-4"
-                              role="button"
-                              aria-disabled="false"
-                            >
-                              Can I use it for multiple projects?
-                            </a>
-                            <div className="uc-accordion-content">
-                              <p>
-                                Definitely! Please use it however you like; we
-                                don’t limit it.
-                              </p>
-                            </div>
-                          </li>
-                          <li className="  ">
-                            <a
-                              className="uc-accordion-title fs-5 sm:fs-4"
-                              role="button"
-                              aria-disabled="false"
-                            >
-                              Can I use this to create and sell a product?
-                            </a>
-                            <div className="uc-accordion-content">
-                              <p>Do not ever consider doing it.</p>
-                            </div>
-                          </li>
-                          <li className="  ">
-                            <a
-                              className="uc-accordion-title fs-5 sm:fs-4"
-                              role="button"
-                              aria-disabled="false"
-                            >
-                              What is your refund policy?
-                            </a>
-                            <div className="uc-accordion-content">
-                              <p>
-                                We understand the importance of customer
-                                satisfaction and we strive to provide the best
-                                products and services. However, please note that
-                                due to the nature of our products and services,
-                                we do not offer refunds after a purchase has
-                                been made.
-                              </p>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+                  <Faq />
                 </div>
               </div>
             </div>
